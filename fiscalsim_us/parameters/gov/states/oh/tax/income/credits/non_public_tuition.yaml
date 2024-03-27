@@ -2,14 +2,18 @@ description: Ohio caps the Nonchartered, Nonpublic, School Tuition Credit at thi
 brackets:
   - threshold:
       2021-01-01: -.inf
+      2023-01-01: -.inf
     amount:
       2021-01-01: 500
+      2023-01-01: 1_000
   - threshold: 
       2021-01-01: 50_000
     amount:
       2021-01-01: 1_000
+      2023-01-01: 1_500
   - threshold:
       2021-01-01: 100_000
+      2023-01-01: .inf
     amount:
       2021-01-01: 0
 metadata:
@@ -20,8 +24,8 @@ metadata:
   reference:
     - title: Ohio Income Tax Form, Line 16 – Nonchartered, Nonpublic School Tuition Credit, R.C. 5747.75
       href: https://tax.ohio.gov/static/forms/ohio_individual/individual/2021/pit-it1040-booklet.pdf#page=21
-    - title: Ohio Income Tax Form 2022, Line 16
-      href: https://tax.ohio.gov/static/forms/ohio_individual/individual/2022/it1040-sd100-instruction-booklet.pdf#page=21
+    - title: Ohio Income Tax Form 2023, Line 16
+      href: https://tax.ohio.gov/static/forms/ohio_individual/individual/2023/it1040-sd100-instructionbooklet.pdf
     - title: Credit for dependents who attend nonchartered nonpublic school.
       href: https://codes.ohio.gov/ohio-revised-code/section-5747.75
 

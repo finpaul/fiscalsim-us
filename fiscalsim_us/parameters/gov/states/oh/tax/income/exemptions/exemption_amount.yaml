@@ -1,0 +1,20 @@
+description: Amount and Threshold for Ohio Exemption
+metadata:
+  label: Ohio Exemption Amount
+  amount_unit: currency-USD
+  threshold_unit: currency-USD
+  reference:
+    - title: Ohio exemption amount
+brackets:
+  - threshold:
+      2023-01-01: 40000
+    amount:
+      2023-01-01: 2400
+  - threshold:
+      2023-01-01: 80000
+    amount:
+      2023-01-01: 2150
+  - threshold:
+      2023-01-01: .inf
+    amount:
+      2023-01-01: 1900

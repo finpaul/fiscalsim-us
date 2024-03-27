@@ -1,0 +1,9 @@
+description: OH business income tax rate
+values:
+  2023-01-01: .03
+metadata:
+  unit: currency-USD
+  label: OH business income tax
+  reference:
+    - title: Ohio Income Tax Form
+      href: https://tax.ohio.gov/static/webview/view1/UIExtension/1/pdf-view.html?filename=forms/ohio_individual/individual/2023/1040-bundle-original-fi.pdf

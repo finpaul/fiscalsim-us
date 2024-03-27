@@ -1,0 +1,25 @@
+description: Ohio deductions as found on the schedule of adjustments
+values:
+  2023-01-01:
+    - oh_business_income_deduction
+    - oh_employee_comp_deduction
+    - oh_taxable_refunds_deduction
+    - oh_taxable_social_security_deduction
+    - oh_certian_railroad_deduction
+    - oh_interest_income_deduction
+    - oh_development_account_program_deduction
+    - oh_stable_account_deduction
+    - oh_income_earned_out_of_state_disaster_deduction
+    - oh_east_palestine_train_derailment_deduction
+    - oh_adoption_grant_deduction
+    - oh_federal_interest_deduction
+    - oh_section_179_expense_add_back
+    - oh_refund_claimed_on_prior_year_deduction
+    - oh_repayment_income_deduction
+    - oh_wage_expense_deduction
+    - oh_federal_conformity_deductions
+    - oh_uniformed_services_deduction
+    - oh_medical_deduction
+metadata:
+  unit: variable
+  label: Ohio deductions

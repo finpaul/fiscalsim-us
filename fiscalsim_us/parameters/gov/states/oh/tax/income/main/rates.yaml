@@ -2,25 +2,34 @@ description: OH individual tax on nonbusiness income
 brackets:
   - threshold:
       2021-01-01: 0
+      2023-01-01: 0
     rate:
       # The first $25,000 income are not taxed; Ohio has a tax cliff.
       # This is the rate implied by the starting tax amount $346.16
       # divided by $25,000.
       # Separately, we add a variable for being tax exempt, set if income
       # is below $25,000.
+      # this same process is done for the year 2023 at $26,050 
       2021-01-01: 0.01385
+      2023-01-01: 0.0138462
   - threshold: 
       2021-01-01: 25_000
+      2023-01-01: 26_050
     rate:
       2021-01-01: 0.02765
+      2023-01-01: 0.0275
   - threshold:
       2021-01-01: 44_250
+      2023-01-01: 100_000
     rate:
       2021-01-01: 0.03226
+      2023-01-01: 0.03688
   - threshold:
       2021-01-01: 88_450
+      2023-01-01: 115_300
     rate:
       2021-01-01: 0.03688
+      2023-01-01: 0.0375
   - threshold: 
       2021-01-01: 110_650
     rate: 
@@ -34,4 +43,4 @@ metadata:
     - title: Ohio Tax Rate Schedule
       href: https://codes.ohio.gov/ohio-revised-code/section-5747.02
     - title: Ohio Income Tax Form
-      href: https://tax.ohio.gov/static/forms/ohio_individual/individual/2021/pit-it1040-booklet.pdf#page=31
+      href: https://tax.ohio.gov/static/forms/ohio_individual/individual/2023/it1040-sd100-instructionbooklet.pdf

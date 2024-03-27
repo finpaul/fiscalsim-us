@@ -1,0 +1,16 @@
+description: Ohio Additons as found on the schedule of adjustments
+values:
+  2023-01-01:
+    - oh_non_oh_interest_dividends
+    - oh_pass_though_entity
+    - oh_taxes_paid_other_state
+    - oh_529_plan_funds
+    - oh_losses_from_sale
+    - oh_nonmedical_withdrawals
+    - oh_reimbursement
+    - oh_bonus_depreciation_add_back
+    - oh_exempt_interest
+    - oh_federal_conformity
+metadata:
+  unit: variable
+  label: Ohio additions

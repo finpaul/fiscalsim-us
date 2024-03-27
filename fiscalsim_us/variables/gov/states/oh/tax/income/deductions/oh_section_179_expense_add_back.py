@@ -2,10 +2,13 @@ from fiscalsim_us.model_api import *
 
 
 class oh_section_179_expense_add_back(Variable):
+    """
+    Line 24 on Ohio schedule of adjustments
+    """
+
     value_type = float
     entity = TaxUnit
-    label = "OH Section 179 Expense Add Back"
+    label = "Deduction of prior year 168k and 179 depreciation add-backs"
+    unit = USD
     definition_period = YEAR
-    documentation = ""
-    reference = ""
-    # use federal variables if they are added later
+    defined_for = StateCode.OH

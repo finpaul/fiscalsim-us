@@ -15,10 +15,10 @@ class oh_cdcc(Variable):
     def formula(tax_unit, period, parameters):
         p = parameters(period).gov.states.oh.tax.income.credits.cdcc
 
-        agi = tax_unit("oh_agi", period)
+        magi = tax_unit("oh_magi", period)
         us_cdcc = tax_unit("cdcc", period)
 
-        rate = p.match.calc(agi)
+        rate = p.match.calc(magi)
         # qualify for full CDCC amount when AGI < 20_000
         # qualify for 25% percent of CDCC when 20000 <= AGI < 40_000
         # not qualify when AGI >= 40_000
